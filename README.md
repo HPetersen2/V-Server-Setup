@@ -17,11 +17,6 @@
 8. [Configure Nginx to Forward Requests to Port 8081](#8-configure-nginx-to-forward-requests-to-port-8081)
 9. [Add an Alternate HTML Page](#9-add-an-alternate-html-page)
 10. [Set Up Git on the Server](#10-set-up-git-on-the-server)
-    - [Generate an SSH Key on the Server](#1-generate-an-ssh-key-on-the-server)
-    - [Display and Copy the SSH Public Key](#2-display-and-copy-the-ssh-public-key)
-    - [Add the SSH Key to GitHub](#3-add-the-ssh-key-to-github)
-11. [Checkliste for the V-Server-Setup](#checkliste-for-the-v-server-setup)
-12. [Setup Complete](#setup-complete)
 
 ---
 
