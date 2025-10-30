@@ -5,6 +5,26 @@
 
 ---
 
+## Table of contents
+
+1. [Generate an SSH Key on Your Local Machine](#1-generate-an-ssh-key-on-your-local-machine)
+2. [Connect to the V-Server](#2-connect-to-the-v-server)
+3. [Copy the SSH Key to the V-Server](#3-copy-the-ssh-key-to-the-v-server)
+4. [Disable Password Authentication](#4-disable-password-authentication)
+5. [Test Password Login (Should Fail)](#5-test-password-login-should-fail)
+6. [Reconnect Using SSH Key Authentication](#6-reconnect-using-ssh-key-authentication)
+7. [Install Nginx](#7-install-nginx)
+8. [Configure Nginx to Forward Requests to Port 8081](#8-configure-nginx-to-forward-requests-to-port-8081)
+9. [Add an Alternate HTML Page](#9-add-an-alternate-html-page)
+10. [Set Up Git on the Server](#10-set-up-git-on-the-server)
+    - [Generate an SSH Key on the Server](#1-generate-an-ssh-key-on-the-server)
+    - [Display and Copy the SSH Public Key](#2-display-and-copy-the-ssh-public-key)
+    - [Add the SSH Key to GitHub](#3-add-the-ssh-key-to-github)
+11. [Checkliste for the V-Server-Setup](#checkliste-for-the-v-server-setup)
+12. [Setup Complete](#setup-complete)
+
+---
+
 ## 1. Generate an SSH Key on Your Local Machine
 
     ssh-keygen -t ed25519
