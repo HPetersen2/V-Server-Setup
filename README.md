@@ -16,7 +16,7 @@
 
 ## 2. Connect to the V-Server
 
-    ssh user@ip
+    ssh <user>@<ip>
 
 Replace `user` and `ip` with your actual username and server IP address.
 
