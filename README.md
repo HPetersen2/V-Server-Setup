@@ -24,7 +24,7 @@ Replace `user` and `ip` with your actual username and server IP address.
 
 ## 3. Copy the SSH Key to the V-Server
 
-    ssh-copy-id -i path/to/your/key.pub user@ip
+    ssh-copy-id -i <path/to/your/key.pub> <user@ip>
 
 > **Note:**  
 > The command `ssh-copy-id` must be installed on your system.
@@ -61,7 +61,7 @@ Replace `user` and `ip` with your actual username and server IP address.
 
 Verify that password-based authentication is disabled:
 
-    ssh -o PubKeyAuthentication=no -i path/to/private-key user@ip
+    ssh -o PubKeyAuthentication=no -i <path/to/private-key> <user@ip>
 
 You should **not** be able to log in.
 
@@ -69,7 +69,7 @@ You should **not** be able to log in.
 
 ## 6. Reconnect Using SSH Key Authentication
 
-    ssh -i path/to/your/key user@ip
+    ssh -i <path/to/your/key> <user@ip>
 
 ---
 
@@ -135,7 +135,7 @@ Specify the file path for the key pair.
 
 Navigate to the directory where the SSH key was created, then run:
 
-    cat path/to/your/key.pub
+    cat <path/to/your/key.pub>
 
 Copy the displayed SSH key.
 
