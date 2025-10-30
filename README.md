@@ -1,6 +1,6 @@
 # V-Server Setup Guide
 
-> **Note:**  
+> [!NOTE]
 > On **Windows**, please use **Git Bash** as your terminal for the following commands.
 
 ---
